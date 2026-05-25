@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Sagar Capitals X-Autoscroller",
+  "version": "1.0",
+  "description": "Automatically scrolls through Twitter/X video feeds.",
+  "permissions": ["scripting", "activeTab"],
+  "host_permissions": ["https://x.com/*", "https://twitter.com/*"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
